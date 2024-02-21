@@ -16,7 +16,7 @@ def ler_arquvios_xls(pasta_dados):
         return dados
 
 def main():
-    pasta_dados = "data_implantation_analysis\\data"
+    pasta_dados = "C:\\Users\\Pointer 01\\Downloads\\data_implantation_analysis\\data"
     dados = ler_arquvios_xls(pasta_dados)
 
     if not pasta_dados:
